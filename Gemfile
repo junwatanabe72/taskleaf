@@ -65,3 +65,7 @@ gem "slim-rails"
 gem "html2slim"
 gem "bootstrap"
 gem "rails_autolink"
+
+group :production do
+  gem 'pg', '>= 0.18', '< 2.0'
+end
